@@ -238,7 +238,7 @@ To configure your application, see [Configurations](#configurations-docker).
 
 ### <a name="use-a-persistent-data-volume-docker"></a>Use a persistent data volume
 
-To retain Elasticsearch data across container restarts, we should use a persistent volume for `/use/share/elasticsearch/data`.
+To retain Elasticsearch data across container restarts, we should use a persistent volume for `/usr/share/elasticsearch/data`.
 
 Assume `/path/to/your/elasticsearch/data` is a persistent data folder on your host.
 
